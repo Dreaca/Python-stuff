@@ -22,15 +22,24 @@
 
 #############################################################################################################################
 
-from my_calculator.addition import add
-from my_calculator.subtraction import subtraction
+# from my_calculator.addition import add
+# from my_calculator.subtraction import subtract
+
+# result_1 = add(5,3)
+
+# result_2 = subtract(10,4)
+
+# print("Addition Result : ", result_1)
+
+# print("Subtraction Result : ", result_2) #~~~~Third way
+
+############################################################################################################################
+
+from my_calculator import add, subtract
 
 result_1 = add(5,3)
-
-result_2 = subtraction(10,4)
+result_2 = subtract(10,4)
 
 print("Addition Result : ", result_1)
 
-print("Subtraction Result : ", result_2) #~~~~Third way
-
-
+print("Subtraction Result : ", result_2) #~~~~Fourth way
