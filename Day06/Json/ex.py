@@ -12,15 +12,19 @@ for student in students:
     if student["score"] > 75:
         print(student["name"])
 
+name = input("Enter the name :")
+score = input("Enter the score :")
+
 new_student = {
-    "name": "New Student",
-    "score": 90
+    "name": name,
+    "score": int(score),
 }
 students.append(new_student)
+
 print(students)
 
 with open("Day06/Json/student.json","a") as student:
-    
+
     json_data = json.dumps(students, indent=4);
     student.write(json_data)
 
