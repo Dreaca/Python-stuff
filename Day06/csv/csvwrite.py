@@ -14,3 +14,9 @@ with open(csv_path, 'w', newline='') as csvfile:
 
     for row in data:
         writer.writerow(row)
+
+with open(csv_path, 'r', newline='') as file:
+    rows = csv.DictReader(file)
+
+    for row in rows:
+        print(row, type(row))
