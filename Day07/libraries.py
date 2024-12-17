@@ -38,6 +38,24 @@ import numpy as np
 # array = np.array([ [ [ 1,2],[3,4]], [[5,6], [7,8]]])
 # print(array.ndim) # shows the dimension of the array
 
-array = np.array([[1,2,3,4],[6,7,8,9]])
+# array = np.array([[1,2,3,4],[6,7,8,9]])
 
-print(array[0,1])
+# print(array[0,1])
+
+arr = np.array([10 , 20 , 30 , 40 , 50])
+
+# condition = arr > 25
+
+# print(condition)
+
+# filtered = arr[condition] #gives a filtered array from the condition
+
+# print(filtered)
+
+# filtered = arr[arr > 25] #gives a filtered array from the condition
+
+# print(filtered)
+
+filtered = arr[(arr > 25) &(arr < 50)] # multiple conditions
+
+print(filtered)
