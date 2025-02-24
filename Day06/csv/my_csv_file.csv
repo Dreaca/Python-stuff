@@ -1,4 +1,5 @@
-Name,Age,City
-John Doe,39,New York
-Jane Smith,29,Los Angeles
-Bobby John,38,Chicago
+Timestamp,Temperature
+2025-02-17 10:00:00,23.5 ,
+2025-02-17 10:05:00,24.1 ,
+2025-02-8 10:05:00,
+2025-02-17 10:05:00,fu ,
