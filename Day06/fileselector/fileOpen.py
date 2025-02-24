@@ -9,6 +9,13 @@
 
 # file_1.close()
 
+#r → Read mode (default)
+#w → Write mode (creates a new file or overwrites existing content)
+#a → Append mode (adds content to the end of an existing file)
+#x → Exclusive creation mode (fails if file already exists)
+#r+ → Read & write mode
+#b → Binary mode (e.g., rb, wb for non-text files like images)
+
 with open("Day06/my_file_1.txt", "w") as file:
     file.write("Hello World !")
     file.write("\nThis is another line.")
